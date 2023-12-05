@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btnJuego"
+        android:icon="@drawable/mando"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/btncontinentes"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="Ordenar"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/todos"
+                android:title="Todos" />
+            <item
+                android:id="@+id/asia"
+                android:title="Asia" />
+
+            <item
+                android:id="@+id/africa"
+                android:title="Africa" />
+            <item
+                android:id="@+id/americadelnorte"
+                android:title="America del norte" />
+            <item
+                android:id="@+id/europa"
+                android:title="Europa" />
+            <item
+                android:id="@+id/oceania"
+                android:title="Oceania" />
+            <item
+                android:id="@+id/americadelsud"
+                android:title="America del sud" />
+            <item
+                android:id="@+id/antartida"
+                android:title="Antartida" />
+
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/btnascdesc"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Ordenar"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/opcioascendente"
+                android:title="Ordenar ascendente" />
+
+            <item
+                android:id="@+id/opciodescendente"
+                android:title="Ordenar descendente" />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/btnOrdenar"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="Ordenar"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/opciopais"
+                android:title="Ordenar por pais" />
+            <item
+                android:id="@+id/opciocapital"
+                android:title="Ordenar por capital" />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/btnFiltrarFav"
+        android:icon="@drawable/estrella_fav"
+        app:showAsAction="always"></item>
+
+</menu>
